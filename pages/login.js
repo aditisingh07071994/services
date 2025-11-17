@@ -84,7 +84,7 @@ export default function Login() {
                 htmlFor="email" 
                 className="block text-sm font-light text-gray-300 mb-2 group-hover:text-amber-400 transition-colors duration-300"
               >
-                Secure Email Address
+                Login Email Address
               </label>
               <input
                 id="email"
@@ -103,7 +103,7 @@ export default function Login() {
                 htmlFor="password" 
                 className="block text-sm font-light text-gray-300 mb-2 group-hover:text-amber-400 transition-colors duration-300"
               >
-                Encryption Key
+                Password
               </label>
               <input
                 id="password"
@@ -160,7 +160,7 @@ export default function Login() {
                     Authenticating...
                   </div>
                 ) : (
-                  'Access Secure Portal'
+                  'Login'
                 )}
               </button>
             </div>
@@ -169,10 +169,10 @@ export default function Login() {
           {/* Registration Link */}
           <div className="text-center mt-8 pt-6 border-t border-gray-700">
             <p className="text-sm text-gray-400 font-light">
-              Not yet a client?{' '}
+              New User?{' '}
               <Link href="/register" legacyBehavior>
                 <a className="font-light text-amber-400 hover:text-amber-300 transition-colors duration-300">
-                  Request client access
+                  Create account Now
                 </a>
               </Link>
             </p>

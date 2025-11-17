@@ -44,7 +44,7 @@ export default function Header() {
             {[
               { href: '/', label: 'Services' },
               { href: '/about', label: 'Our Expertise' },
-              { href: '/contact', label: 'Consultation' },
+              // { href: '/contact', label: 'Consultation' },
             ].map((link) => (
               <Link key={link.href} href={link.href} legacyBehavior>
                 <a className="text-sm font-light text-gray-300 hover:text-amber-400 transition-colors duration-300 relative group">

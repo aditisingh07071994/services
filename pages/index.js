@@ -42,12 +42,12 @@ export default function Home() {
                 <span className="relative z-10">Explore Services</span>
                 <div className="absolute inset-0 bg-amber-500 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
               </a>
-              <a
+              {/* <a
                 href="#contact"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gray-800 border border-gray-600 text-white font-medium rounded-sm hover:bg-gray-700 transition-all duration-300"
               >
                 Consult Our Experts
-              </a>
+              </a> */}
             </div>
             
             {/* Trust indicators */}

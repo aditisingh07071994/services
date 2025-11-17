@@ -137,7 +137,7 @@ export default function Register() {
                 htmlFor="email" 
                 className="block text-sm font-light text-gray-300 mb-2 group-hover:text-amber-400 transition-colors duration-300"
               >
-                Secure Email Address
+              Email Address
               </label>
               <input
                 id="email"
@@ -252,7 +252,7 @@ export default function Register() {
                     Creating Secure Account...
                   </div>
                 ) : (
-                  'Request Client Access'
+                  'Register'
                 )}
               </button>
             </div>
@@ -264,7 +264,7 @@ export default function Register() {
               Already have account?{' '}
               <Link href="/login" legacyBehavior>
                 <a className="font-light text-amber-400 hover:text-amber-300 transition-colors duration-300">
-                  Access secure portal
+                  Login
                 </a>
               </Link>
             </p>

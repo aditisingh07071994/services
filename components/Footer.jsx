@@ -118,7 +118,7 @@ export default function Footer() {
           </div>
 
           {/* Contact Information */}
-          <div>
+          {/* <div>
             <h5 className="text-lg font-light text-white mb-4 pb-2 border-b border-gray-700">Secure Contact</h5>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
@@ -148,7 +148,7 @@ export default function Footer() {
               </li>
             </ul>
             
-            {/* Trust Indicators */}
+            
             <div className="mt-6 pt-6 border-t border-gray-700">
               <div className="space-y-2">
                 <div className="flex items-center text-xs text-gray-500 font-light">
@@ -171,7 +171,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Bar */}

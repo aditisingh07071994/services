@@ -132,7 +132,7 @@ export default function ServiceModal() {
                 <span className="text-lg font-light text-amber-400">${serviceToConfigure.price}</span>
               </div>
               <div className="mt-2 text-xs text-gray-500 font-light">
-                Secure crypto payment • 24-48 hour initiation
+                Secure crypto payment • 30 Min - 12 hour initiation
               </div>
             </div>
 
