@@ -4,6 +4,7 @@ import { AuthProvider } from '../context/AuthContext';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ServiceModal from '../components/ServiceModal'; // <-- 1. Import the modal
+import WhatsAppWidget from '../components/WhatsAppWidget';
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ export default function MyApp({ Component, pageProps }) {
         
         <main className="flex-grow">
           <Component {...pageProps} />
+          <WhatsAppWidget />
         </main>
         
         <Footer />
